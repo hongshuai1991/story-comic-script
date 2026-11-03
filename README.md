@@ -1,4 +1,4 @@
-# 小红书故事漫画脚本
+# 小红书漫画文字脚本
 
 <a id="contents"></a>
 ## 目录
@@ -208,7 +208,7 @@ npx skills add hongshuai1991/story-comic-script -g
 
 这个 skill 的画面说明聚焦叙事，生图参数、模型提示词和完整人物外貌设定由后续流程补充。
 
-需要继续制作彩铅风格漫画时，可以配合[小红书彩铅手绘故事漫画 skill](https://github.com/hongshuai1991/colored-pencil-story-comic)，继续完成人物设定、连续配图和中文排版。
+需要继续制作彩铅风格漫画时，可以配合[小红书彩铅漫画 skill](https://github.com/hongshuai1991/colored-pencil-story-comic)，继续完成人物设定、连续配图和中文排版。
 
 <a id="faq"></a>
 ## 8. 常见问题

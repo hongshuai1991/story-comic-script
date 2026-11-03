@@ -1,4 +1,4 @@
 interface:
-  display_name: "小红书故事漫画脚本（18页以内）"
+  display_name: "小红书漫画文字脚本"
   short_description: "把一句话或粗提纲扩写为18页以内的生活或悬疑故事漫画，交付逐页上图文案与画面说明"
   default_prompt: "使用 $redbook-story-comic-script，把下面这句话或提纲按故事需要扩写成18页以内的完整漫画脚本，保留原定结局与悬疑留白："
