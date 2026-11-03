@@ -1,4 +1,4 @@
-# 故事漫画脚本
+# 小红书故事漫画脚本
 
 <a id="contents"></a>
 ## 目录
@@ -18,7 +18,7 @@
 
 **把一句灵感，写成可以逐页绘制的完整故事。**
 
-`story-comic-script` 将一句话、真实经历、故事提纲或已有长稿，整理成适合连续翻阅的中文漫画脚本。你会得到标题、逐页上图文字和简短画面说明；页数由故事需要决定，默认最多 18 页。
+`redbook-story-comic-script` 将一句话、真实经历、故事提纲或已有长稿，整理成适合连续翻阅的中文漫画脚本。你会得到标题、逐页上图文字和简短画面说明；页数由故事需要决定，默认最多 18 页。
 
 **一句话就能开始 · 每页一个主要画面 · 保留你的原话与结局 · 生活与悬疑皆可**
 
@@ -39,7 +39,7 @@ npx skills add hongshuai1991/story-comic-script
 npx skills add hongshuai1991/story-comic-script -g
 ```
 
-也可以下载本仓库，保留 `SKILL.md`、`agents/` 和 `references/` 的完整目录，再交给你使用的 Agent 安装。安装后，直接在聊天中点名 `story-comic-script` 并提供故事素材。
+也可以下载本仓库，保留 `SKILL.md`、`agents/` 和 `references/` 的完整目录，再交给你使用的 Agent 安装。安装后，直接在聊天中点名 `redbook-story-comic-script` 并提供故事素材。
 
 <a id="quick-start"></a>
 ## 2. 快速开始
@@ -47,7 +47,7 @@ npx skills add hongshuai1991/story-comic-script -g
 在已经加载这个 skill 的聊天中，直接发出下面的请求：
 
 ```text
-使用 $story-comic-script：
+使用 $redbook-story-comic-script：
 爸爸总嫌我养的猫掉毛，后来却在自己身边给它留了一把椅子。
 写成一个轻松、温暖的原创生活故事，4 页左右。
 ```
@@ -63,7 +63,7 @@ npx skills add hongshuai1991/story-comic-script -g
 下面是一份可以直接复制的请求模板。只保留你关心的项目即可。
 
 ```text
-使用 $story-comic-script，把下面的素材写成完整漫画脚本。
+使用 $redbook-story-comic-script，把下面的素材写成完整漫画脚本。
 
 素材：……
 性质：原创虚构 / 真实经历 / 已授权改编
@@ -208,7 +208,7 @@ npx skills add hongshuai1991/story-comic-script -g
 
 这个 skill 的画面说明聚焦叙事，生图参数、模型提示词和完整人物外貌设定由后续流程补充。
 
-需要继续制作彩铅风格漫画时，可以配合[彩铅手绘故事漫画 skill](https://github.com/hongshuai1991/colored-pencil-story-comic)，继续完成人物设定、连续配图和中文排版。
+需要继续制作彩铅风格漫画时，可以配合[小红书彩铅手绘故事漫画 skill](https://github.com/hongshuai1991/colored-pencil-story-comic)，继续完成人物设定、连续配图和中文排版。
 
 <a id="faq"></a>
 ## 8. 常见问题
@@ -237,7 +237,7 @@ npx skills add hongshuai1991/story-comic-script -g
 ## 9. 技能文件结构
 
 ```text
-story-comic-script/
+redbook-story-comic-script/
 ├── README.md                       顶部目录与图文使用说明
 ├── SKILL.md                        主规则与交付约定
 ├── agents/
